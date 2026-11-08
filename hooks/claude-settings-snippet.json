@@ -1,0 +1,17 @@
+{
+  "_comment": "Install.ps1 adds this for you. To add it by hand, merge the hooks section into %USERPROFILE%\\.claude\\settings.json and change the path to where you cloned this repo (use forward slashes).",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File \"C:/Users/YourName/Claude-Project-Backup/hooks/Start-BackgroundBackup.ps1\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

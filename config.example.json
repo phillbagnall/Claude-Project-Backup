@@ -1,0 +1,22 @@
+{
+  "_comment": "Copy to config.json (Install.ps1 does this for you). Lines starting with _ are ignored.",
+  "projectRoots": [
+    "C:\\Users\\YourName\\Projects"
+  ],
+  "projects": [],
+  "remote": "gdrive",
+  "remoteFolder": "ProjectBackups",
+  "exclude": [
+    "node_modules", ".venv", "venv", "env", "__pycache__", ".pytest_cache", ".mypy_cache",
+    "bin", "obj", "dist", "build", "out", ".next", ".nuxt", ".turbo", ".parcel-cache",
+    "target", ".gradle", "coverage", ".cache", "*.log", "Thumbs.db", ".DS_Store"
+  ],
+  "maxProjectSizeMB": 10240,
+  "dailyTime": "21:00",
+  "retention": {
+    "keepLast": 20,
+    "keepDailyDays": 30,
+    "keepMonthlyMonths": 12,
+    "unprotectedLabels": ["pre-claude", "daily"]
+  }
+}
