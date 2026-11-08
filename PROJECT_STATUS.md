@@ -34,6 +34,7 @@ A PowerShell toolkit that backs up all my projects (GitHub and PC-only) to Googl
 - Full guide: README.md
 
 ## Notes
+- 2026-11-08: Change frequency of backups. Only really need them when big changes are made - not every day.
 
 ## Decisions
 - 2026-11-08: Add-only snapshots, not a mirror, so a local deletion can never spread to Drive
